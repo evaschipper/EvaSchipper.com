@@ -1,0 +1,196 @@
+/*ELEMENTS*/
+    body{
+        background-color:#ffffff;
+        color:#2C2C3D;
+        padding:50px 0 0 0;
+        font-family: 'Playfair Display', serif;
+        letter-spacing:1px;
+        font-size:16pt;
+    }
+    main {
+        width:80%;
+        margin:0 auto;
+        height:auto;
+    }
+    li, ul{
+        list-style:none;
+        padding:0;
+        margin:0;
+    }
+    a{
+        color:#2C2C3D;
+        text-decoration:none;
+        border-bottom:none;
+        transition:  .1s ;
+    }
+    a:hover{
+        color:#fd634f;
+        border-bottom:3px solid;
+
+    }
+    h1{
+        font-size:4em;
+        font-weight:300;
+        padding:2rem 0 2rem 0;
+        margin:0;
+        
+    }
+    h2{
+        padding:0;
+        margin:0 0 20px 0;
+        font-size:1.3em;
+    }
+/*ELEMENTS*/
+
+/*NAV*/
+    nav{
+        width:80%;
+        margin:0 auto;
+        height:80px;
+        font-family:Lato;
+        font-weight:bold;
+    }
+    nav ul{
+        float:right;
+        padding-left:0;
+    }
+    nav p, nav li {
+        float:left;
+        letter-spacing:2px;
+        font-size:15px;
+        font-weight:400;
+        margin-top:0;
+    }
+    nav ul li{
+        padding-left:40px;
+    }
+    nav ul :first-child{
+        padding-left:0;
+    }
+    nav a{
+        text-decoration:none;
+    }
+/*NAV*/
+
+
+/*HOME*/
+    #introduction p{
+        font-size:40px;
+        line-height:70px;
+        color:#62626f;
+        margin-top:0;
+    }
+/*HOME*/
+
+/*ABOUT*/
+    .about-body{
+        box-sizing: border-box;
+        float:right;
+}
+    .about-body p{
+        font-size:.8em;
+        line-height:1.7em;
+}
+    #skillsbox{
+        margin-top:4rem;
+        display:inline-block;
+        width:100%;
+    }
+    #skillsbox div{
+        float:left;
+        width:20%;
+        margin-right:5%;
+    }
+    #skillsbox h2{
+        padding-bottom:.2em;
+        border-bottom:1px solid black;
+    }
+
+    #skillsbox li{
+        margin: .5em 0 .5em 0;
+        font-size:13.5px;
+    }
+    #skillsbox span {
+        font-weight:bold;
+    }
+/*ABOUT*/
+
+/*FOOTER*/
+    footer{
+        margin-top:5em;
+        padding-bottom:2em;
+        width:100%;
+        height:100px;
+        text-align:center;
+    }
+    footer .fa{
+        font-size:1em;
+        margin:0 .5em 0 .5em;
+    }
+    footer > :nth-child(2){
+        font-size:.7em;
+        margin:1em;
+    }
+    footer a:hover{
+    border-bottom:none;
+}
+/*FOOTER*/
+
+
+
+@media screen and (max-width: 1000px){
+    
+    #introduction p{
+        font-size:30px; 
+    }
+    
+    #introduction span{
+        font-size:40px;
+      
+    }
+
+    #navigation ul{
+         float:none;
+    }
+    
+    #navigation p{
+        float:none;
+        font-size:50px;
+        text-align:center;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    
+    #introduction p{
+        font-size:20px; 
+        line-height:40px;
+        margin-top:50px;
+    }
+    
+    #introduction span{
+        font-size:30px;
+        line-height:40px;
+    }
+
+    #navigation ul{
+        float:none;
+    }
+    
+    #navigation ul li{
+        font-size:9px;
+        margin:10px;
+        padding:0;
+    }
+    
+    #navigation p{
+        float:none;
+        font-size:30px;
+        text-align:center;
+    }
+}
+
+
+
+
