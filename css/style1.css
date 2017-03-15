@@ -115,6 +115,13 @@
     }
 /*ABOUT*/
 
+/*CASE STUDY*/
+#herobox{
+    background-color:red;
+    height:200px;
+    width:100%;
+}
+
 /*FOOTER*/
     footer{
         margin-top:5em;
@@ -135,8 +142,6 @@
     border-bottom:none;
 }
 /*FOOTER*/
-
-
 
 @media screen and (max-width: 1000px){
     
