@@ -73,8 +73,14 @@ body, main{
 
 #content p{
     font-family:piersans;
-    font-size:13pt;
+    font-size:18px;
     line-height:25pt;
+}
+
+#content h4{
+    font-size:25px;
+    margin-bottom:10px;
+    font-weight:100;
 }
 
 
@@ -84,21 +90,34 @@ body, main{
 }
 
 .contenttable .contentcontainer{
-    width:50%;
+    width:45%;
     float:left;
     height:auto;
 }
 
-.contentcontainer img{
-    width:110%;
+.contenttable > :nth-child(2){
+    padding-left:10%;
+}
+
+.placeholder{
+    height:500px;
+    border:1px solid black;
 }
 
 .thirty{
-    width:38%!important;  
+    width:30%!important;  
 }
 
 .sixty{
     width:60%!important;
+}
+
+.sixty img{
+    width:90%;
+}
+
+.fullwidth{
+    width:100%!important;
 }
 
 .divider{
@@ -107,4 +126,18 @@ body, main{
     height:1px;
     background-color:black;
 }
+
+ol li{
+    list-style-type: lower-alpha;
+}
+
+li{
+    font-family:piersans, sans-serif;
+    font-size:18px;
+    padding:10px;
+    list-style:circle;
+    line-height:25px;
+    
+}
+
 /*CASE STUDY*/
